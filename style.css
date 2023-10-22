@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.title {
+  text-align: center;
+}
+
+.schedule {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-left: 10px;
+}
+
+.lesson {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 10px;
+  width: 400px;
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.lesson__content {
+  display: flex;
+  flex-direction: column;
+}
+
+.lesson__buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.lesson__title {
+  text-align: center;
+}
+
+.lesson__footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.lesson__date {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+}
